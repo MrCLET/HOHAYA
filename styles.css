@@ -1,6 +1,12 @@
 
 
-.menu li a {
-    @apply text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium;
-    
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btnBlack {
+        @apply bg-[#282828] text-white px-6 py-3 rounded-full font-semibold px-3 py-2 text-white rounded-3xl;
+    }
 }
