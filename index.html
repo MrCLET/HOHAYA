@@ -8,26 +8,57 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
-    <div>
-
-        <nav class="bg-gray-300 py-3"> 
-            <div class="menu-container flex justify-center gap-2">
-                <div class="logo-container ">
-                    <a href="" class="">
-                    <img class="w-6 h-6 ml-10 ml-4" alt="HOHAYA" src="images/IMG_7352.PNG">
+<body class="bg-[#c9c6c7] p-16">
+    <div class="bg-[#f1f1f1] p-10 px-20 text-gray-100 h-screen">
+        <nav class=" flex items-center flex-wrap py-6"> 
+            <div class="flex justify-between w-full ">
+                <!-- insert logo here -->
+                <div class="h-12">
+                    <a href="">
+                    <img class="w-auto h-full" alt="HOHAYA" src="images/IMG_7352.PNG">
                     </a>
                 </div>
-                <div>
-                    <ul class="menu flex justify-center gap-8 pl-3">
-                        <li><a href="pages/services.html">Services</a></li>
-                        <li><a href="pages/about.html">About Us</a></li>
-                        <li><a href="pages/blog.html">Blog</a></li>
-                        <li><a href="pages/contact.html">Contact</a></li>
+                <!-- list of menu items here -->
+                <div class="flex ">
+                    <ul class="flex bg-gray-800 justify-center gap-8 pl-2 pr-4 items-center rounded-full">
+                            <li class="bg-white text-gray-900 py-2 px-4 rounded-3xl"><a href="index.html">Home</a></li>
+                            <li><a href="pages/properties.html">Properties</a></li>
+                            <li><a href="pages/about.html">About Us</a></li>
+                            <li><a href="pages/testimonials.html">Testimonials</a></li>
+                            <li><a href="pages/blog.html">Blog</a></li>
+                            <li><a href="pages/faq.html">FAQ</a></li>
                     </ul>
+                </div>
+                <!-- contact us and language selection here -->
+                <div class="flex items-center gap-2">
+                    <div class="w-4 text-gray-900 ml-4 ">EN</div>
+                    <button class="bg-white ml-auto hover:bg-blue-200 text-gray-900 py-2 px-4 rounded-3xl">
+                            Contact Us
+                    </button>
                 </div>
             </div>
         </nav>
+         <!-- Content -->
+        <div class="text-black justify-center pt-4 items-center ">
+            <div class="flex w-full mb-4">
+                <div class="w-3/4 mb-10">
+                    <p class="text-sm ">Explore. Dicover. Buy</p>
+                    <h1 class="text-3xl font-bold">Find your best <br> home to living</h1>
+                </div>
+                <div class="w-2/4 ">
+                    <p class="">
+                        Discover your ideal home with ease. Browse through a curated selection of properties, connect with expert agents, and find the perfect place to call your own - whether you're a first-time buyer or looking to invest.
+                    </p>
+                    <button class=" bg-black px-3 py-2 text-white rounded-3xl">Get Started  --></button>
+                </div>
+            </div>
+            <div class="mt-6">
+                <img class="w-full h-full border-solid-gray border-2" alt="HOHAYA" src="images/chambre.jfif">
+            </div>
+        </div>
+
+
+
     </div>
 </body>
 </html>
