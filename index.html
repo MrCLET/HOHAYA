@@ -6,178 +6,192 @@
     <title>Landing page design-2</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
-    
-
 </head>
 
-<body class="bg-[#c9c6c7] p-16">
-    <div class="bg-[#f1f1f1] text-gray-900 p-10 px-20 min-h-screen">
-        <!-- HOME -->
-        <section id="home">
-                <!-- NavBar -->
-            <nav class=" flex items-center flex-wrap py-6"> 
-                <div class="flex justify-between w-full ">
-                    <!-- insert logo here -->
-                    <div class="h-12">
-                        <a href="">
-                        <img class="w-auto h-full" alt="HOHAYA" src="images/IMG_7352.PNG">
-                        </a>
-                    </div>
-                    <!-- list of menu items here -->
-                    <div class="flex ">
-                        <ul class="flex bg-gray-800 text-gray-100 justify-center gap-8 pl-1 pr-4 items-center rounded-full">
-                                <li class="bg-white text-gray-900 py-2 px-4 hover:bg-gray-200 rounded-3xl"><a href="index.html">Home</a></li>
-                                <li><a href="#properties" class="">Properties</a></li>
-                                <li><a href="#about">About Us</a></li>
-                                <li><a href="#testimonials">Testimonials</a></li>
-                                <li><a href="pages/blog.html">Blog</a></li>
-                                <li><a href="pages/faq.html">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <!-- contact us and language selection here -->
-                    <div class="flex items-center gap-2">
-                        <div class="w-4 text-gray-900  mr-2 ">EN</div>
-                        <button class="bg-white ml-auto hover:bg-blue-200 text-gray-900 py-2 px-4 rounded-3xl">
-                                Contact Us
-                        </button>
-                    </div>
-                </div>
-            </nav>
-                <!-- Content -->
-            <div class="text-black justify-center pt-4 items-center ">
-                <div class="flex w-full mb-4">
-                    <div class=" w-3/4 mb-10 ">
-                        <p class="inline-flex hover:bg-gray-200 items-center bg-white py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>Explore. Dicover. Buy</p>
-                        <h1 class="text-5xl mt-16">Find your best <br> home to living</h1>
-                    </div>
-                    <div class="w-2/4 ">
-                        <p class="">
-                            Discover your ideal home with ease. Browse through a curated selection of properties, connect with expert agents, and find the perfect place to call your own - whether you're a first-time buyer or looking to invest.
-                        </p>
-                        <button class=" bg-gray-800 mt-4 text-gray-100 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-200 hover:text-gray-900 hover:shadow-xl transition ">Get Started  --></button>
-                    </div>
-                </div>
-                <div class="mt-6">
-                    <img class="w-full mb-6 h-full object-cover border-solid-gray border-2" alt="HOHAYA" src="images/chambre.jfif">
-                </div>
-                <div class="flex w-full mb-4">
-                    <div class="w-3/4 mb-10">
-                        <p class="inline-flex hover:bg-gray-200 items-center bg-white py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>Fetured Properties</p>
-                        <h1 class="text-5xl mt-10">Discover your <br> dreaming home</h1>
-                    </div>
-                    <div class="w-2/4 ">
-                        <p class="mt-16 text-sm">
-                            Explore an exclusive selection of premium properties. meticuliously curated to provide you with the best in luxury living and prime real estate investement options, tailored to your needs
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<body class="bg-[#c9c6c7] mx-auto p-16">
+    <div class="container min-w-[320px]  max-w-7xl mx-auto bg-[#f1f1f1]  ">
+        <div class="bg-[#f1f1f1] text-gray-900 p-10 px-20 min-h-screen">
 
-         <!-- Properties and Galerie -->
-        <section id="properties" class="my-14" >
-            <div>
-                <div class="flex justify-left items-center ">
-                    <ul class="flex justify-center gap-2 pl-2 pr-4 py-4 items-center rounded-full">
+            <!-- HOME -->
+            <section id="home">
+                <!-- NavBar -->
+                <nav class=" flex items-center flex-wrap py-6"> 
+                    <div class="flex flex-wrap gap-5 justify-between w-full ">
+                        <!-- insert logo here -->
+                        <div class="  w-20 h-12 shrink-0">
+                            <a href="">
+                            <img class="w-auto h-full" alt="HOHAYA" src="images/IMG_7352.PNG">
+                            </a>
+                        </div>
+                        <!-- list of menu items here -->
+                        <div class="flex flex-wrap ">
+                            <ul class="flex flex-wrap bg-gray-800 text-gray-100 justify-center gap-6 pl-1 pr-4 py-auto items-center rounded-full">
+                                    <li class="bg-white text-gray-900 py-2 px-4 hover:bg-gray-200 shadow-xl rounded-3xl"><a href="index.html">Home</a></li>
+                                    <li><a href="#properties" class="bg-gray-800 py-2 px-4 rounded-3xl  shadow-xl hover:bg-gray-100 hover:text-gray-900">Properties</a></li>
+                                    <li><a href="#about" class="bg-gray-800 py-2 px-4 rounded-3xl  shadow-xl hover:bg-gray-100 hover:text-gray-900">About Us</a></li>
+                                    <li><a href="#testimonials" class="bg-gray-800 py-2 px-4 rounded-3xl  shadow-xl hover:bg-gray-100 hover:text-gray-900">Testimonials</a></li>
+                                    <li><a href="#blog" class="bg-gray-800 py-2 px-4 rounded-3xl  shadow-xl hover:bg-gray-100 hover:text-gray-900">Blog</a></li>
+                                    <li><a href="#faq" class="bg-gray-800 py-2 px-4 rounded-3xl  shadow-xl hover:bg-gray-100 hover:text-gray-900">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <!-- contact us and language selection here -->
+                        <div class="flex items-center gap-2">
+                            <div class="w-4 text-gray-900  mr-2 ">EN</div>
+                            <button class="bg-white ml-auto hover:bg-blue-200 text-gray-900 py-2 px-4 rounded-3xl">
+                                    Contact Us
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Content -->
+                <div class="text-black justify-center pt-4 items-center ">
+                    <div class="flex w-full mb-auto">
+                        <div class=" w-3/4  ">
+                            <p class="inline-flex hover:bg-gray-200 items-center bg-white py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>Explore. Dicover. Buy</p>
+                            <h1 class="text-5xl mt-12">Find your best <br> home to living</h1>
+                        </div>
+                        <div class="w-2/4 ">
+                            <p class="">
+                                Discover your ideal home with ease. Browse through a curated selection of properties, connect with expert agents, and find the perfect place to call your own - whether you're a first-time buyer or looking to invest.
+                            </p>
+                            <button class=" bg-gray-800 mt-6 text-gray-100 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-200 hover:text-gray-900 hover:shadow-xl transition ">Get Started  --></button>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <img class="w-full mb-6 h-full object-cover border-solid-gray border-2" alt="HOHAYA" src="images/chambre.jfif">
+                    </div>
+                    
+                </div>
+            </section>
+        <!-- Properties and Galerie -->
+            <section id="properties" class="my-14 mb-10" >
+                <div class="flex w-full mb-4">
+                        <div class="w-3/4 mb-10">
+                            <p class="inline-flex hover:bg-gray-200 items-center bg-white py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>Fetured Properties</p>
+                            <h1 class="text-5xl mt-10">Discover your <br> dreaming home</h1>
+                        </div>
+                        <div class="w-2/4 ">
+                            <p class="mt-6 text-sm">
+                                Explore an exclusive selection of premium properties. meticuliously curated to provide you with the best in luxury living and prime real estate investement options, tailored to your needs
+                            </p>
+                        </div>
+                    </div>
+                <div>
+                    <div class="flex items-center ">
+                        <!-- Properties liste  -->
+                        <ul class="justify-center flex flex-wrap gap-4  pl-2 pr-4 py-4 items-center rounded-full">
                             <li class="bg-gray-800 px-4 py-2 text-gray-100 rounded-full font-semibold hover:bg-gray-200 hover:text-gray-900  hover:shadow-3xl transition"><a href="">All properties</a></li>
                             <li class="bg-white py-2 px-4 rounded-3xl  shadow-lg hover:bg-blue-200 "><a href="">Family House</a></li>
                             <li class="bg-white py-2 px-4 rounded-3xl  shadow-lg hover:bg-blue-200 "><a href="">Villa</a></li>
                             <li class="bg-white py-2 px-4 rounded-3xl  shadow-lg hover:bg-blue-200"><a href="">Apartement</a></li>
                             <li class="bg-white py-2 px-4 rounded-3xl  shadow-lg hover:bg-blue-200"><a href="">Mansions</a></li>
                             <li class="bg-white py-2 px-4 rounded-3xl  shadow-lg hover:bg-blue-200"><a href="">Green House</a></li>
+                        </ul>
+                    </div>
+                <!-- Galerie -->
+                    <div class="container mt-8 flex  gap-5 ">
+                        <div class="w-1/3">
+                            <img src="images/maisonchic-3.png" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
+                            <div>
+                                <h1 class="font-semibold text-lg mb-2">Akodessewa Beach Villa</h1>
+                                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nihil veritatis provident eum in..</p>
+                                <p class="font-bold text-3xl">$489,000</p>
+                            </div>
+                        </div>
+                        <div class="w-1/3">
+                            <img src="images/imagesA.jpg" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
+                            <div>
+                                <h1 class="font-semibold text-lg mb-2">Tokoin Boulevard Villa</h1>
+                                <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus.</p>
+                                <p class="font-bold text-3xl">$846,000</p>
+                            </div>
+                        </div>
+                        <div class="w-1/3">
+                            <img src="images/maisonchic-4.png" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
+                            <div>
+                                <h1 class="font-semibold text-lg mb-2">Segbe Cms</h1>
+                                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <p class="font-bold text-3xl">$9173,000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container flex mt-6 justify-between gap-5 ">
+                        <div class="w-1/3">
+                            <img src="images/imagesB.jpg" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
+                            <div>
+                                <h1 class="font-semibold text-lg mb-2">Rafiti </h1>
+                                <p class="text-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora beatae dolor et illum!</p>
+                                <p class="font-bold text-3xl">$387,000</p>
+                            </div>
+                        </div>
+                        <div class="w-1/3">
+                            <img src="images/imagesC.jpg" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
+                            <div>
+                                <h1 class="font-semibold text-lg mb-2">Dodji Valley Lodge</h1>
+                                <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                                <p class="font-bold text-3xl">$745,000</p>
+                            </div>
+                        </div>
+                        <div class="w-1/3">
+                            <img src="images/maisonchic-3.png" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
+                            <div>
+                                <h1 class="font-semibold text-lg mb-2">Clet hill Estate</h1>
+                                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut? Illo.</p>
+                                <p class="font-bold text-3xl">$287,000</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            <!-- Galerie -->
-                <div class="container mt-8 flex  gap-5 ">
-                    <div class="w-1/3">
-                        <img src="images/maisonchic-3.png" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
-                        <div>
-                            <h1 class="font-semibold text-lg mb-2">Akodessewa Beach Villa</h1>
-                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nihil veritatis provident eum in..</p>
-                            <p class="font-bold text-3xl">$489,000</p>
-                        </div>
-                    </div>
-                    <div class="w-1/3">
-                        <img src="images/imagesA.jpg" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
-                        <div>
-                            <h1 class="font-semibold text-lg mb-2">Tokoin Boulevard Villa</h1>
-                            <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, necessitatibus.</p>
-                            <p class="font-bold text-3xl">$846,000</p>
-                        </div>
-                    </div>
-                    <div class="w-1/3">
-                        <img src="images/maisonchic-4.png" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
-                        <div>
-                            <h1 class="font-semibold text-lg mb-2">Segbe Cms</h1>
-                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                            <p class="font-bold text-3xl">$9173,000</p>
-                        </div>
-                    </div>
-                </div>
 
 
-                <div class="container flex justify-between gap-5 ">
-                    <div class="w-1/3">
-                        <img src="images/imagesB.jpg" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
-                        <div>
-                            <h1 class="font-semibold text-lg mb-2">Rafiti </h1>
-                            <p class="text-sm"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora beatae dolor et illum!</p>
-                            <p class="font-bold text-3xl">$387,000</p>
-                        </div>
-                    </div>
-                    <div class="w-1/3">
-                        <img src="images/imagesC.jpg" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
-                        <div>
-                            <h1 class="font-semibold text-lg mb-2">Dodji Valley Lodge</h1>
-                            <p class="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-                            <p class="font-bold text-3xl">$745,000</p>
-                        </div>
-                    </div>
-                    <div class="w-1/3">
-                        <img src="images/maisonchic-3.png" class="w-full h-64 object-cover mb-6 rounded-2xl" alt="">
-                        <div>
-                            <h1 class="font-semibold text-lg mb-2">Clet hill Estate</h1>
-                            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, aut? Illo.</p>
-                            <p class="font-bold text-3xl">$287,000</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
+            </section>
     </div>
-        <!-- ABOUT US -->
-    <section id="about" class="bg-white h-150">
-        <div class="flex p-16 gap-2">
-            <div class="w-1/2">
-                <p class="inline-flex text-gray-900 hover:bg-gray-200  items-center bg-[#f1f1f1] py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-gray-900 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="12"/></svg>About Us</p>
-                <h1 class="text-5xl mt-6">Custom Real Estate <br>Help For Everyone </h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe totam amet quod, magni ab nostrum!</p>
-                <div>
-                    <ul>
-                        <li><p>Price <br> Lorem, ipsum dolor.</p></li>
-                    </ul>
+    <!-- ABOUT US -->
+        <section id="about" class="bg-white py-10 h-150">
+            <div class="flex my-4 p-16 gap-6">
+                <div class="w-1/2">
+                    <p class="inline-flex text-gray-900 hover:bg-gray-200  items-center bg-[#f1f1f1] py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-gray-900 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="12"/></svg>About Us</p>
+                    <h1 class="text-5xl mt-6">Custom Real Estate <br>Help For Everyone </h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe totam amet quod, magni ab nostrum!</p>
+        <!-- Counter -->
+                    <div class="max-w-3xl mx-auto grid grid-cols-3 pt-4 text-center gap-4">
+                        <div class="bg-gray-100 p-4  rounded-2xl">
+                            <h2 class="counter text-4xl font-semibold" data-target="1200">0</h2>
+                            <p>Properties sold</p>
+                        </div>
+
+                        <div class="bg-gray-100 p-4 items-center rounded-2xl">
+                            <h2 class=" text-4xl font-semibold" data-target="95">95% </h2>
+                            <p class="" >Customers Satisfation</p>
+                        </div>
+
+                        <div class="bg-gray-100 p-4 items-center rounded-2xl">
+                            <h2 class="counter text-4xl font-semibold" data-target="500000000">0</h2>
+                            <p>In Transaction</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <img class="w-auto h-full" src="images/maisonchic-1.png" alt="">
                 </div>
             </div>
-            <div class="w-1/2">
-                <img class="" src="images/maisonchic-1.png" alt="">
-            </div>
-        </div>
-    </section>
+        </section>
 
     <!--  TESTIMONIALS AND BLOG -->
-     <section id="testimonials" class="bg-[#f1f1f1] text-gray-900 items-center p-10 px-20 min-h-screen" >
-            <div class="">
+        <section id="testimonials" class="bg-[#f1f1f1] text-gray-900 items-center p-10 px-20 minh-screen" >
+            <div class=" flex justify-center items-center">
                 <div class="text-center max-w-3xl px-6 py-10" >
-                <p class="inline-flex hover:bg-gray-200  items-center bg-white py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="12"/></svg>Testimonials</p>
-                <h1 class="text-6xl font-bold my-4">What our clients say</h1>
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus eligendi. Animi labore ipsum harum pariatur dolore magnam ullam id consequatur modi excepturi, rerum deserunt.</p>
+                    <p class="inline-flex hover:bg-gray-200 items-center bg-white py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>Testimonials</p>
+                    <h1 class="text-6xl font-bold my-4">What our clients say</h1>
+                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, doloribus eligendi. Animi labore ipsum harum pariatur dolore magnam ullam id consequatur modi excepturi, rerum deserunt.</p>
                 </div>
             </div>
-            <!--  COMMENTAIRE DES CLIENTS -->
-            <div class="flex justify-between gap-5">
+        
+
+        <!--  COMMENTAIRE DES CLIENTS -->
+            <div class="flex justify-between mb-16 gap-5">
                 <div class="w-1/3 bg-white p-4">
                     <svg class="w-14 h-14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M0 216C0 149.7 53.7 96 120 96l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64L0 216zm256 0c0-66.3 53.7-120 120-120l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-136z"/></svg>
                     <p>
@@ -245,14 +259,67 @@
                     </div>
                 </div>
             </div>
-     </section>
 
-     <!--  BLOG -->
-       <section>
+        <!--  BLOG -->
+            <div id="blog" class="mt-2xl py-10 ">
+                <div class="mt-10">
+                    <p class="inline-flex hover:bg-gray-200 items-center bg-white py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>Blog</p>
+                    <h1 class="text-6xl font-semibold my-4">Top Trending Articles</h1>
+                </div>
+                <div class="flex gap-4">
+                    <div>
+                        <img class="w-auto rounded-sm" src="images/imagesA.jpg" alt="">
+                        <p class="py-2 text-sm">Fev 12, 2024</p>
+                        <h2 class="font-bold text-lg w-3/4">Tech Trends to watch in 2025</h2>
+                    </div>
+                    <div>
+                        <img class="w-auto rounded-xl" src="images/imagesC.jpg" alt="">
+                        <p>Juin 25, 2025</p>
+                        <h2 class="font-bold text-lg w-3/4">Creating Sunstainable Garden</h2>
+                    </div>
+                    <div>
+                        <img class="w-auto rounded-xl" src="images/imagesD.jpg" alt="">
+                        <p>Jan 08, 2022</p>
+                        <h2 class="font-bold text-lg w-3/4">Budgeting Tips for First-Time Homebuyers</h2>
+                    </div>
+                    <div>
+                        <img class="w-auto rounded-xl" src="images/imagesB.jpg" alt="">
+                        <p>Dec 15, 2025</p>
+                        <h2 class="font-bold text-lg w-3/4">The Art of Minimalist Living</h2>
+                    </div>
 
-       </section>
+                </div>
+            </div>
+        </section>
 
-
-    
+<!--  FAQ -->
+<section id="faq" class="bg-white min-h-screen  py-10 h-150">
+        <div class="p-16">
+            <div class="left  w-1/2">
+                <div class="mt-10 ">
+                    <p class="inline-flex hover:bg-gray-200 items-center bg-gray-100 py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>FAQ</p>
+                    <h1 class="text-6xl font-semibold my-4">Frequently Asked <br>Questions</h1>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia architecto eligendi repellendus?</p>
+                </div>
+            </div>
+            <div class="right w-1/2"></div>
+        </div>
+        <div class="flex">
+            <div class="left w-1/2 ">
+            <div class="">
+                <img src="images/maisonchicinvers.png" class="h-7xl" alt="">
+            </div>
+        </div>
+        <div class="right  w-1/2">
+            <div class="mt-10 ">
+                    <p class="inline-flex hover:bg-gray-200 items-center bg-gray-100 py-1 px-4 text-sm rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-2 w-2 text-black mr-2" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>Join Out Newletter</p>
+                    <h1 class="text-6xl font-semibold my-4">Ready to Find Your <br> Dream Home with <br>Urbanouse?</h1>
+                    <p class="text-sm text-gray-500 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur fuga expedita accusantium, saepe aliquam facilis alias eligendi! Natus adipisci nobis laboriosam accusamus!</p>
+                    <button class=" bg-gray-800 mt-6 text-gray-100 px-6 py-3 rounded-full font-semibold shadow-2xl hover:bg-gray-200 hover:text-gray-900 hover:shadow-2xl transition ">Let work together  --></button>
+                </div>
+        </div>
+        </div>
+</section>
+    <script src="index.js" defer></script>
 </body>
 </html>
