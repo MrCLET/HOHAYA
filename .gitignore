@@ -1,5 +1,7 @@
 pages 
 
+
 node_modules
-package-lock
-package
+package-lock.json
+package.json
+exo.js
