@@ -24,3 +24,21 @@ clearInterval(interval);
 }, 0.3);
 
 });
+
+
+
+document.querySelectorAll(".accordion-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const content = btn.nextElementSibling;
+    const icon = btn.querySelector("span");
+
+    // Toggle content
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+      icon.classList.remove("rotate-180");
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      icon.classList.add("rotate-180");
+    }
+  });
+});

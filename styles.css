@@ -1,10 +1,2 @@
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-.btnBlack {
-        @apply;
-    }
