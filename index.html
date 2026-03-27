@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hohaya - Immobilier de Luxe</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+body { font-family: 'Inter', sans-serif; }
+</style>
+</head>
+<body class="bg-white text-gray-900">
+
+<header class="relative h-screen">
+<nav class="absolute top-0 w-full z-20 flex justify-between items-center px-10 py-6">
+<div class="text-2xl font-bold text-white">Hohaya</div>
+<ul class="hidden md:flex space-x-8 text-white font-medium bg-white/10 backdrop-blur-md px-8 py-2 rounded-full">
+<li><a href="#" class="hover:text-green-400">Accueil</a></li>
+<li><a href="#" class="hover:text-green-400">À propos</a></li>
+<li><a href="#" class="hover:text-green-400">Propriétés</a></li>
+<li><a href="#" class="hover:text-green-400">Contact</a></li>
+</ul>
+<button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600">S'inscrire</button>
+</nav>
+
+<div class="absolute inset-0 bg-black/40 z-10"></div>
+<div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/5e/34/6c/chariot-beach-resort.jpg?w=700&h=-1&s=1');"></div>
+
+<div class="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
+<h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Construisez votre futur,<br>une propriété à la fois.</h1>
+<p class="text-gray-200 max-w-2xl mb-10">Trouvez la maison de vos rêves grâce à notre sélection exclusive de propriétés modernes et écologiques.</p>
+
+<div class="bg-white p-6 rounded-3xl shadow-2xl flex flex-wrap gap-4 items-end max-w-5xl w-full text-left">
+<div class="flex-1 min-w-[150px]">
+<label class="block text-xs font-bold text-gray-400 mb-2">TYPE</label>
+<select class="w-full bg-transparent border-none focus:ring-0 font-semibold italic text-gray-700"><option>Villa</option></select>
+</div>
+<div class="flex-1 min-w-[150px]">
+<label class="block text-xs font-bold text-gray-400 mb-2">PRIX</label>
+<select class="w-full bg-transparent border-none focus:ring-0 font-semibold text-gray-700"><option>200k - 500k</option></select>
+</div>
+<div class="flex-1 min-w-[150px]">
+<label class="block text-xs font-bold text-gray-400 mb-2">LOCALISATION</label>
+<select class="w-full bg-transparent border-none focus:ring-0 font-semibold text-gray-700"><option>Paris, FR</option></select>
+</div>
+<button class="bg-black text-white px-8 py-4 rounded-2xl hover:bg-gray-800 transition">Rechercher</button>
+</div>
+</div>
+</header>
+
+<section class="py-20 px-10 border-b">
+<div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+<div><h3 class="text-4xl font-bold">100%</h3><p class="text-gray-500 uppercase text-sm tracking-widest mt-2">Satisfaction</p></div>
+<div><h3 class="text-4xl font-bold">500+</h3><p class="text-gray-500 uppercase text-sm tracking-widest mt-2">Ventes</p></div>
+<div><h3 class="text-4xl font-bold">150+</h3><p class="text-gray-500 uppercase text-sm tracking-widest mt-2">Villes</p></div>
+<div><h3 class="text-4xl font-bold">2,00+</h3><p class="text-gray-500 uppercase text-sm tracking-widest mt-2">Avis positifs</p></div>
+</div>
+</section>
+
+<section class="py-24 px-10 max-w-7xl mx-auto">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="text-4xl font-bold mb-4">Explorez nos maisons de prestige</h2>
+<p class="text-gray-500">Chaque annonce offre des caractéristiques uniques et une qualité exceptionnelle.</p>
+</div>
+<button class="border border-black px-6 py-2 rounded-full hover:bg-black hover:text-white transition">Voir tout</button>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group">
+<div class="rounded-[2rem] overflow-hidden mb-4 relative aspect-[4/5] bg-gray-100">
+<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/2b/e5/86/bay-of-bengal-resort.jpg?w=1200&h=-1&s=1" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+<span class="absolute top-4 left-4 bg-white/80 backdrop-blur px-4 py-1 rounded-full text-xs font-bold">À VENDRE</span>
+</div>
+<div class="flex justify-between items-start">
+<div>
+<h4 class="text-xl font-bold">Maison face a la mer</h4>
+<p class="text-gray-400 text-sm italic">aneho, lome</p>
+</div>
+<div class="text-right font-bold text-lg">122,507,00.00FCFA</div>
+</div>
+<div class="flex gap-4 mt-4 text-gray-500 text-sm">
+<span><i class="fa-solid fa-bed mr-2"></i>4 Ch.</span>
+<span><i class="fa-solid fa-bath mr-2"></i>2 Sdb.</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="bg-gray-50 py-24 px-10">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-4xl font-bold mb-12">Questions fréquemment posées</h2>
+<div class="space-y-4">
+<details class="group bg-white rounded-2xl p-6 shadow-sm cursor-pointer" open>
+<summary class="flex justify-between items-center font-bold text-lg list-none">
+Quels types de propriétés vendez-vous ?
+<span class="group-open:rotate-180 transition-transform"><i class="fa-solid fa-chevron-down"></i></span>
+</summary>
+<div class="mt-4 text-gray-600 leading-relaxed">
+Nous nous spécialisons dans le résidentiel, le commercial et les propriétés de luxe, offrant une large gamme d'options pour chaque besoin.
+</div>
+</details>
+</div>
+</div>
+</section>
+
+<section class="py-24 px-10 max-w-7xl mx-auto">
+<div class="bg-gray-100 rounded-[3rem] p-12 md:p-20 flex flex-col md:flex-row gap-12 items-center">
+<div class="w-full md:w-1/3 rounded-3xl overflow-hidden aspect-square bg-gray-300">
+<img src="https://www.smecpa.com/wp-content/uploads/bb-plugin/cache/0W1A7008_websize-662x1024-portrait-2850844065e9e308a077e37822379e20-.jpg" alt="" class="w-full h-full object-cover">
+</div>
+<div class="w-full md:w-2/3">
+<i class="fa-solid fa-quote-left text-green-500 text-5xl mb-6"></i>
+<p class="text-2xl md:text-3xl font-medium leading-relaxed mb-8">
+"Travailler avec cette équipe a été un plaisir. Ils ont compris notre vision et nous ont aidés à trouver une propriété qui a dépassé nos attentes."
+</p>
+<h5 class="font-bold text-xl italic">Mavric</h5>
+<p class="text-gray-500">Designer UX/UI</p>
+</div>
+</div>
+</section>
+
+<footer class="bg-white pt-20 pb-10 px-10">
+<div class="max-w-7xl mx-auto">
+<div class="bg-gray-900 rounded-[3rem] p-16 text-center text-white mb-20 relative overflow-hidden">
+<h2 class="text-4xl md:text-5xl font-bold mb-6">Prêt à faire de votre propriété<br>de rêve une réalité ?</h2>
+<button class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-gray-200 transition">Commencer</button>
+<div class="absolute inset-0 z-[-1] opacity-30 bg-cover" style="background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/c0/6b/14/diyamba-beach-resort.jpg?w=1200&h=-1&s=1');"></div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 border-b pb-12">
+<div class="col-span-1 lg:col-span-2">
+<h3 class="text-3xl font-bold mb-4">Hohaya</h3>
+<p class="text-gray-500 max-w-sm">Découvrez les merveilles de la nature avec des conseils d'experts.</p>
+</div>
+<div>
+<h4 class="font-bold mb-6 italic underline">Coordonnées</h4>
+<p class="text-gray-600 mb-2 text-sm italic">GTA,Togo</p>
+<p class="text-gray-600 font-bold italic">+22891789221</p>
+</div>
+</div>
+
+<div class="flex justify-between items-center pt-8 text-sm text-gray-400">
+<p>© 2026 Hohaya. Tous droits réservés.</p>
+<div class="flex gap-6">
+<a href="#">Termes & Conditions</a>
+<a href="#">Politique de Confidentialité</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
+
